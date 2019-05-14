@@ -1,0 +1,36 @@
+// Este codigo ha sido generado por el modulo psexport 20180802-w32 de PSeInt.
+// Es posible que el codigo generado no sea completamente correcto. Si encuentra
+// errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+
+function ejercicio_variables() {
+	var valor_x = new Number();
+	var valor_y = new String();
+	var valor_w = new String();
+	var valor_z = new String();
+	var valor_a = new Number();
+	var valor_b = new String();
+	var valor_c = new Boolean();
+	var valor_d = new Boolean();
+	var valor_e = new Boolean();
+	var valor_w = new Array(4);
+	valor_x = 75;
+	valor_y = "84";
+	valor_z = "65";
+	valor_a = Math.sqrt(4);
+	valor_b = "2019";
+	valor_c = true;
+	valor_d = false;
+	valor_w[0] = "H";
+	valor_w[1] = "O";
+	valor_w[2] = "L";
+	valor_w[3] = "A";
+	document.write(valor_a,'<BR/>');
+	document.write(valor_b,'<BR/>');
+	document.write(valor_c,'<BR/>');
+	document.write(valor_d,'<BR/>');
+	document.write(valor_x,'<BR/>');
+	document.write(valor_y,'<BR/>');
+	document.write(valor_z,'<BR/>');
+	document.write(valor_w[0],valor_w[1],valor_w[2],valor_w[3],'<BR/>');
+}
+
